@@ -24,7 +24,7 @@ import {
   Tooltip,
 } from "recharts";
 import {
-  DollarSign,
+  PoundSterling,
   PiggyBank,
   CreditCard,
   Home,
@@ -175,7 +175,7 @@ const BudgetTracker = () => {
             {/* Income Input */}
             <div className="flex flex-col gap-2 flex-1 min-w-[200px]">
               <Label className="flex items-center gap-2">
-                <DollarSign className="h-4 w-4" />
+                <PoundSterling className="h-4 w-4" />
                 Income
               </Label>
               <Input
